@@ -4,7 +4,6 @@ import { resolve } from 'path';
 export default defineNuxtConfig({
   css: [
     resolve(__dirname, 'assets/css/tailwind.css'),
-    resolve(__dirname, 'assets/css/main.css'),
   ],
   postcss: {
     plugins: {
